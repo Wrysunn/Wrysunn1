@@ -1,0 +1,414 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+body {
+	background-color: #f9f9f9;
+}
+.top {
+	height: 26px;
+	background-color: #f2f2f2;
+}
+.main {
+	width: 1366px;
+	margin: 0 auto;
+	line-height: 26px;
+	color: #888;
+}
+.main-left {
+	float: left;
+}
+.main-right {
+	float: right;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+.main-right .redbg {
+	color: #c00;
+}
+.main-right .phone {
+	color: #ffffff;
+	background: #c00;
+	padding: 5px;
+	border-radius: 5px;
+}
+.main-right .car {
+	width: 12px;
+	height: 12px;
+	background: url('../img/public-24.png') no-repeat -18px 1px;
+	padding-left: 15px;
+}
+.main-right .phone .pre {
+	background: url('../img/public-24.png') no-repeat -62px 1px;
+	padding-left: 15px;
+	width: 12px;
+	height: 12px;
+}
+.main-right .web {
+	width: 12px;
+	height: 12px;
+	background: url('../img/public-24.png') no-repeat -80px 1px;
+	padding-left: 15px;
+}
+.main-right .people {
+	width: 12px;
+	height: 12px;
+	background: url('../img/public-24.png') no-repeat -90px -263px;
+	padding-left: 15px;
+}
+.main-left span,
+a {
+	margin-right: 5px;
+}
+.main-right span,
+a {
+	margin-left: 4px;
+}
+.banner img {
+	display: block;
+	width: 100%;
+	height: 90px;
+}
+.main-right .up {
+	width: 12px;
+	height: 12px;
+	background: url('../img/public-24.png') no-repeat -99px 5px;
+	padding-left: 15px;
+}
+.main-right .my {
+	cursor: pointer;
+	float: left;
+	width: 80px;
+}
+.main-right .mydropdown {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	display: none;
+}
+
+.main-right .mydropdown ul {
+	list-style: none;
+}
+.header{
+  height: 125px;
+}
+.logo{
+  float: left;
+  margin-top: 30px;
+}
+.gif{
+  float: left;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.search{
+  float: left;
+  margin-top: 30px;
+  margin-left: 22px;
+  width: 540px;
+  height: 65px;
+}
+.tu{
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.search-top{
+height: 31px;
+border: 4px solid #c00;
+}
+.search-bottom ul{
+  list-style: none;
+  width: 540px;
+  height: 23px;
+  margin-top: 5px;
+}
+.search-bottom ul li{
+  float: left;
+  margin-left: 16px;
+}
+.first{
+  color: #c00;
+}
+.search-form{
+  width: 442px;
+  height: 22px;
+  line-height: 22px;
+  padding: 4px;
+  border: 1px none;
+  color: #666;
+}
+.search-form:focus{
+ outline: none;
+}
+.search-btn{
+  width: 90px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border: 0;
+  font-size: 15px;
+  color: #fff;
+  background: #c00;
+  cursor: pointer;
+  float: right;
+}
+.ppt{
+	height: 32px;
+	background: #900
+}
+.ppt .div1{
+	height: 32px;
+	overflow: hidden;
+	background: #900;
+	color:#fff;
+}
+.ppt .div1 ul{
+width: 1366px;
+margin: 0 auto;
+list-style: none;
+}
+.ppt .div1 ul li{
+ float: left;
+ line-height: 32px;
+ margin-left: 30px;
+ cursor: pointer;
+}
+.ppt .banner{
+	background: #ce171f;
+	width: 180px;
+	text-align: center;
+	margin-left: 0px!important;
+}
+.ppt .div2{
+	width: 1366px;
+	height: 470px;
+	margin: 0 auto;
+	position: relative;
+}
+.ppt .div3{
+	width: 180px;
+	height: 470px;
+	background: #b61d1d;
+}
+.ppt .div3 ul{
+	list-style: none;
+}
+.ppt .div3 ul li{
+	padding-left: 15px;
+	line-height: 30px;
+	border-bottom: 1px solid #ce171f;
+}
+.ppt .div3 ul li:hover{
+	border-left:2px solid #ce171f;
+}
+.ppt .div3 ul li span{
+	color: #fff;
+}
+.ppt .div3 ul li:hover{
+	cursor: pointer;
+}
+.ppt .div3 .categoryCon{
+	width: 170px;
+	height: 48px;
+	overflow: hidden;
+}
+.ppt .div3 .categoryCon p{
+	width: 170px;
+	height: 20px;
+	overflow: hidden;
+}
+.ppt .div3 .categoryCon p a{
+	padding-left: 4px;
+}
+.ppt .div3 .categoryCon a{
+	text-decoration: none;
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	padding: 0 2px;
+	color: #000;
+	float: left;
+	margin: 0px 1px 5px 0;
+}
+.ppt .div3 .categoryCon a.on{
+background: #f90;
+color: #fff;
+border-radius: 3px;
+line-height: 16px;
+}
+.ppt .right{
+	width: 767px;
+	height: 470px;
+	background: #eee;
+	position: absolute;
+	top: 0px;
+	left: 180px;
+	color: #000;
+	display: none;
+	z-index: 3;
+	box-shadow: 0 0 4px 0 #ccc;
+}
+.ppt .right-gif img{
+	float: left;
+	margin-left: 90px;
+}
+.curson .flash{
+	width: 1186px;
+	height: 470px;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+.curson .flash ul{
+	position: absolute;
+	left: 50%;
+	bottom: 5%;
+	width: 300px;
+	height: 30px;
+}
+.curson .flash ul li{
+	list-style: none;
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #000;
+	padding-left: 6px;
+	margin-left: 16px;
+	margin-top: 10px;
+	line-height: 20px;
+	color: #fff;
+}
+.curson .flash ul li:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+.curson .flash ul .li_first{
+	background-color: #f40;
+}
+.nav1{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	background: #f00;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/public-24.png) -73px -260px;
+}
+.nav2{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	background: #f00;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/public-24.png) 2px -101px;
+}
+.nav3{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	background: #f00;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/public-24.png) -16px -102px;
+}
+.nav4{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	background: #f00;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/public-24.png) -37px -100px;
+}
+.nav5{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	background: #f00;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/public-24.png) -59px -100px;
+}
+.nav6{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	background: #f00;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../img/public-24.png) -79px -100px;
+}
+.div3 .right .left-menu{
+	width: 600px;
+	height: 470px;
+	float: left;
+	display: inline-block;
+	background: #f1f1f1;
+	overflow: hidden;
+}
+.div3 .right .left-menu .left-menuTitle{
+	width: 90px;
+	height: 40px;
+	float: left;
+	padding: 10px 10px 10px 20px;
+	line-height: 22px;
+	text-align: right;
+}
+.div3 .right .left-menu .left-menuTitle h4{
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+	white-space: nowrap;
+}
+.div3 .right .left-menu .left-menuItem{
+	float: left;
+	background: #fff;
+}
+.div3 .right .left-menu .left-menuItem .clearfix a{ 
+	display: inline-block;
+	float: left;
+	padding: 0 8px;
+	white-space: nowrap;
+}
+.div3 .right .left-menu .left-menuItem .Item-list{ 
+	width: 470px;
+	padding: 8px 5px 5px;
+	border-top: 1px dotted #ccc;
+}
+.div3 .right .left-menu .left-menuItem .clearfix{ 
+line-height: 22px;
+max-height: 176px;
+overflow: hidden;
+}
+.clearfix::after{
+	clear: both;
+	display: block;
+	content: "...";
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+}
+.menuFoc {
+	width: 215px;
+	height: 470px;
+	float: left;
+	margin-left: -48px;
+	position: relative;
+	z-index: 201;
+}
+.menuFoc a {
+	display: block;
+	width: 220px;
+	height: 470px;
+	position: absolute;
+	top: 0;
+	right: -5px;
+}
